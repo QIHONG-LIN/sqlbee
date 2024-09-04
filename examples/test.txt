@@ -1,0 +1,7 @@
+
+(){
+    var bee sqlbee.Bee
+    bag := bee.model(User{}).filter(_map).find()
+    code := bee.model(User{}).filter(_map).update()
+}
+

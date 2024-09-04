@@ -1,4 +1,4 @@
-package sqlbee_go
+package sqlbee
 
 import (
 	"database/sql"

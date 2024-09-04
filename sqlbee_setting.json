@@ -1,0 +1,7 @@
+{
+    "SqlBeeDb_username": "exampe_root",
+    "SqlBeeDb_password": "exampe_123456",
+    "SqlBeeDb_host": "exampe_10.10.10.10",
+    "SqlBeeDb_port": "exampe_3306",
+    "SqlBeeDb_dbname": "exampe_mySqlBeeDb"
+}
