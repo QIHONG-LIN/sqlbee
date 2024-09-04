@@ -136,7 +136,7 @@ func (m *SqlBeeWorker) delete() {
 //
 // Save a row in database for the given struct if it has 'id'==0;
 //
-// Or update the row correspond to its 'id' if 'id'>0.
+// Or update the row corresponding to its 'id' if 'id'>0.
 func (m *SqlBeeWorker) save() {
 
 	/*
