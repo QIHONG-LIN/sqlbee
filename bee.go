@@ -9,6 +9,7 @@ import (
 	"os"
 	"reflect"
 	"strings"
+	"time"
 )
 
 type SqlBeeWorker struct {
@@ -370,4 +371,14 @@ type User struct {
 	Name   string
 	Age    int
 	Nation string
+}
+
+// Format current time for writing into database
+func current_time_for_writeIn() string {
+	return time.Now().Format("2006-01-02T15:04:05 -07:00:00")
+}
+
+// Format specific time for writing into database
+func time_for_writeIn(_time time.Time) string {
+	return _time.Format("2006-01-02T15:04:05 -07:00:00")
 }
